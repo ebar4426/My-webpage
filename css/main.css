@@ -1,0 +1,36 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+	h2, h3, h4,{
+	font-family: 'Parisienne', cursive;
+	margin: 0;
+	}
+#na{
+	text-indent: -999999px
+}
+
+#first {
+	background-color: grey;
+	float: left;
+	width: 430px;
+	padding-bottom: 55px;
+
+}
+
+#welcome{
+	font-family: 'Lobster', cursive;
+	background-color: grey;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 300px;
+	display: box;
+	float: left;
+	width: 530px;
+}	
+
+#main{
+	text-align: center;
+	background-color: olive;
+	clear: left;
+}
