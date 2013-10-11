@@ -1,7 +1,6 @@
 body{
 	width: 960px;
 	margin: 0 auto;
-	background-image: ('../images/backdrop.jpg')
 	background-repeat: repeat-x;
 }
 h2, h3, h4{
@@ -42,13 +41,12 @@ h2, h3, h4{
 
 .an:hover{
 	color: #000;
-	background-color: green;
+	background-color: #005826;
 }
 /*--------------------------navigation-end----------------------*/
 /*--------------------first-image-logo------------------------*/
 
 #first {
-	background-image: ('../images/grandlogo.png');
 	background-color: grey;
 	clear: both;
 	float: left;
@@ -64,13 +62,12 @@ h2, h3, h4{
 	padding-top: 100px;
 	color: green;
 	padding-bottom: 190px;
-	display: box;
 	float: left;
 	width: 530px;
   	text-shadow: -2px -1px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, 5px 5px 2px #000;
 
 }
-
+/*------------------------------main-characters-----------------------*/
 #michael{
 	width: 200px;
 	float: left;
@@ -82,7 +79,7 @@ h2, h3, h4{
 	background-color: #555;
 	font-weight: bold;
 	font-size: 20px;
-	width: 375px;
+	text-align: center;
 	padding-top: 10px;
 	padding-right:0px;
 	padding-bottom: 10px;
@@ -93,6 +90,62 @@ h2, h3, h4{
 #page_m{
 	font-family: 'raleway', san-serif;
 	font-size: 14px;
+}
+
+#trevor{
+	width: 200px;
+	float: left;
+}
+
+#tp{
+	font-family: 'Parisienne', cursive;
+	color: #f29a10;
+	background-color: #555;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-right:0px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+#page_t{
+	font-family: 'raleway', san-serif;
+	font-size: 14px;	
+}
+
+#franklin{
+	width: 200px;
+	float: left;
+}
+
+#fc{
+	font-family: 'Parisienne', cursive;
+	color: #f29a10;
+	background-color: #555;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-right:0px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+#page_f{
+	font-family: 'raleway', san-serif;
+	font-size: 14px;	
+}
+
+#one{
+	font-family: 'raleway', san-serif;
+	font-size: 14px;	
+}
+/*--------------------------backstory------------------------*/
+.backsto{
+	font-family: 'raleway', san-serif;
+	font-size: 14px;	
 }
 
 #main{
@@ -108,10 +161,52 @@ h2, h3, h4{
 	text-shadow: 5px 5px 4px #000;
 	border: solid #000 2px
 }
-
+/*-----------------gallery--------------------------------*/
 #gallery{
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
 	border: solid #000 2px
+}
+#gallone{
+	border: 2px solid #000;
+	list-style-type: none;
+	width: 570px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.galle{
+	float: left;
+	padding: 3px 2px;
+}
+
+.anch{
+	border: 3px solid #000;
+	display: block;
+	width: 174px;
+	height: 98px;
+}
+
+.anch:hover{
+	border: 3px solid #8dc63f;
+}
+/*--------------signup-------------------------------------*/
+#signup{
+	text-align: center;
+	background-color: #8dc63f;
+	text-shadow: 5px 5px 4px #000;
+	border: solid #000 2px	
+}
+#add{
+	border: 3px solid #000;
+	margin: 10px auto;
+}
+#add:hover{
+	border: 3px solid #8dc63f;
+}
+
+#foot{
+	font-family: 'raleway', san-serif;
+	font-size: 14px;	
 }
