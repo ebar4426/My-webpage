@@ -136,6 +136,7 @@ h2, h3, h4{
 /*------------------------------main-characters-----------------------*/
 #michael{
 	width: 20.83333333%; /*200px;/960*/
+	margin-right: .5%;
 	float: left;
 }
 
@@ -163,6 +164,7 @@ h2, h3, h4{
 
 #trevor{
 	width: 20.83333333%; /*200px;/960*/
+	margin-right: .5%;
 	float: left;
 	clear: left
 	
@@ -191,6 +193,7 @@ h2, h3, h4{
 
 #franklin{
 	width: 20.83333333%; /*200px;/960*/
+	margin-right: .5%;
 	float: left;
 	clear: left;
 }
@@ -312,4 +315,53 @@ h2, h3, h4{
 #foot{
 	font-family: 'raleway', san-serif;
 	font-size: .875em; /*14px;*/	
+}
+
+
+/* Media queries=======
+========================================================*/
+
+/* Tablet portrat to standard 960 ===============*/
+@media screen and(min-width:768px)and(max-width:959){
+
+
+
+
+
+
+
+
+}
+
+
+
+/* mobile landscape to tablet portrat ==============*/
+@media screen and(min-width:480px)and(max-width:758px){
+
+
+
+
+
+
+
+
+
+}
+
+
+/* mobile portrat size to mobile landscape=========*/
+@media screen and(max-width:479px){
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
