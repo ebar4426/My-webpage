@@ -2,7 +2,7 @@ body{
 	max-width: 960px;
 	margin: 0px auto;
 	background-image: url("../images/backwork.jpg");
-	background-repeat: x-axis;
+	background-repeat: repeat-x;
 	background-color: #000;
 }
 h2, h3, h4{
