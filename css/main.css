@@ -1,8 +1,8 @@
 body{
 	width: 960px;
 	margin: 0px auto;
-	background-image: url("../images/backdrop.jpg");
-	background-repeat: repeat-x;
+	background-image: url("../images/backwork.jpg");
+	background-repeat: no-repeat;
 }
 h2, h3, h4{
 	font-family: 'Parisienne', cursive;
@@ -77,7 +77,7 @@ h2, h3, h4{
 #mds{
 	font-family: 'Parisienne', cursive;
 	color: #f29a10;
-	background-color: #555;
+	background-color: #8b8b8b;
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
@@ -103,7 +103,7 @@ h2, h3, h4{
 #tp{
 	font-family: 'Parisienne', cursive;
 	color: #f29a10;
-	background-color: #555;
+	background-color: #8b8b8b;
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
@@ -127,7 +127,7 @@ h2, h3, h4{
 #fc{
 	font-family: 'Parisienne', cursive;
 	color: #f29a10;
-	background-color: #555;
+	background-color: #8b8b8b;
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
@@ -146,6 +146,19 @@ h2, h3, h4{
 	font-family: 'raleway', san-serif;
 	font-size: 14px;	
 }
+#mikeone{
+	background-color: #555;
+	padding-bottom: 5px;
+}
+#trevorone{
+	background-color: #555;
+	padding-bottom: 5px;
+}
+#franklinone{
+	background-color: #555;
+	padding-bottom: 5px;
+}
+
 /*--------------------------backstory------------------------*/
 #backtwo{
 	-moz-column-count: 4;
