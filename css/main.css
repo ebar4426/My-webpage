@@ -1,5 +1,5 @@
 body{
-	width: 960px;
+	max-width: 960px;
 	margin: 0px auto;
 	background-image: url("../images/backwork.jpg");
 	background-repeat: x-axis;
@@ -15,10 +15,11 @@ h2, h3, h4{
 #logo{
 	float: left;
 	overflow: hidden;
+	width: 47.9166667%; /*460px/960*/
 }
 
 #nav{
-	width: 500px;
+	width: 52.0833333%; /*500px/960*/
 	list-style: none;
 	padding: 0;	
 	margin: 0;
@@ -26,7 +27,7 @@ h2, h3, h4{
 }
 
 .nv{
-	width: 125px;
+	width: 25%; /*125px/500*/
 	background: #000;
 	float: left;
 }
@@ -34,10 +35,10 @@ h2, h3, h4{
 .an{
 	text-decoration: none;
 	display: block;
-	height: 35px;
-	line-height: 35px;
+	height: 100%; /*35px*/
+	line-height: 200%; /*35px*/
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-family: 'Lobster', cursive;
 }
 
@@ -53,7 +54,7 @@ h2, h3, h4{
 	border: 2px solid rgb(0, 0, 0);
 	padding: 10px 10px 10px 10px;
 	color:rgb(0, 0, 0);
-	font-size:20px;
+	font-size: 20px;
 	font-family:'Lobster', arial;
 	text-shadow: 0px 0px 5px rgb(255, 255, 255);
 	font-size: 20px;
@@ -117,12 +118,11 @@ h2, h3, h4{
 	text-align: center;
 	margin-top: 0;
 	margin-right: 0;
-	margin-bottom: 10px;
-	padding-top: 450px;
+	margin-bottom: 1.66666667%; /*10px/600*/
+	padding-top: 50%; /*450px;/600*/
 	color: #a4ef3e;
 	float: left;
-	width: 960px;
-	height: 50px;
+	width: 100%;
   	text-shadow: -2px -1px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, 5px 5px 2px #000;
 
 }
@@ -130,12 +130,12 @@ h2, h3, h4{
 	text-align: center;
 	background-color: #000;
 	color: #8dc63f;
-	width: 960px;
-	margin-bottom: 5px;
+	width: 100%;
+	margin-bottom: 1%; /*5px;*/
 }
 /*------------------------------main-characters-----------------------*/
 #michael{
-	width: 200px;
+	width: 20.83333333%; /*200px;/960*/
 	float: left;
 }
 
@@ -144,11 +144,11 @@ h2, h3, h4{
 	color: #f29a10;
 	background-color: #8b8b8b;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.25em; /*20px;*/
 	text-align: center;
-	padding-top: 10px;
-	padding-right:0px;
-	padding-bottom: 10px;
+	padding-top: 1%; /*10px;*/
+	padding-right: 0px;
+	padding-bottom: 1%; /*10px;*/
 	margin: 0;
 	border: solid #000 2px;
 	border-radius: 10px;
@@ -157,12 +157,12 @@ h2, h3, h4{
 
 #page_m{
 	font-family: 'raleway', san-serif;
-	font-size: 14px;
-	margin-bottom: 3px;
+	font-size: .875em; /*14px;*/
+	margin-bottom: .6%; /*3px;*/
 }
 
 #trevor{
-	width: 200px;
+	width: 20.83333333%; /*200px;/960*/
 	float: left;
 	clear: left
 	
@@ -173,11 +173,11 @@ h2, h3, h4{
 	color: #f29a10;
 	background-color: #8b8b8b;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.25em; /*20px;*/
 	text-align: center;
-	padding-top: 10px;
-	padding-right:0px;
-	padding-bottom: 10px;
+	padding-top: 1%; /*10px;*/
+	padding-right: 0px;
+	padding-bottom: 1%; /*10px;*/
 	margin: 0;
 	border: solid #000 2px;
 	border-radius: 10px;
@@ -185,12 +185,12 @@ h2, h3, h4{
 
 #page_t{
 	font-family: 'raleway', san-serif;
-	font-size: 14px;	
-	margin-bottom: 3px;
+	font-size: .875em; /*14px;*/
+	margin-bottom: .6%; /*3px;*/
 }
 
 #franklin{
-	width: 200px;
+	width: 20.83333333%; /*200px;/960*/
 	float: left;
 	clear: left;
 }
@@ -200,11 +200,11 @@ h2, h3, h4{
 	color: #f29a10;
 	background-color: #8b8b8b;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.25em; /*20px;*/
 	text-align: center;
-	padding-top: 10px;
-	padding-right:0px;
-	padding-bottom: 10px;
+	padding-top: 1%; /*10px;*/
+	padding-right: 0px;
+	padding-bottom: 1%; /*10px;*/
 	margin: 0;
 	border: solid #000 2px;
 	border-radius: 10px;
@@ -212,27 +212,24 @@ h2, h3, h4{
 
 #page_f{
 	font-family: 'raleway', san-serif;
-	font-size: 14px;	
+	font-size: .875em; /*14px;*/
 }
 
 #one{
 	font-family: 'raleway', san-serif;
-	font-size: 14px;	
-	margin-bottom: 1px;
+	font-size: .875em; /*14px;*/
+	margin-bottom: .6%; /*3px;*/
 }
 #mikeone{
 	background-color: #555;
-	padding-bottom: 1px;
 	border-radius: 10px;
 }
 #trevorone{
 	background-color: #555;
-	padding-bottom: 1px;
 	border-radius: 10px;
 }
 #franklinone{
 	background-color: #555;
-	padding-bottom: 1px;
 	border-radius: 10px;
 }
 /*--------------------------backstory------------------------*/
@@ -242,12 +239,12 @@ h2, h3, h4{
 
 .backsto{
 	font-family: 'raleway', san-serif;
-	font-size: 15px;	
+	font-size: .938em; /*15px;*/	
 	text-indent: 25px
 }
 
 #main{
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
@@ -256,7 +253,7 @@ h2, h3, h4{
 	clear: left;
 }
 #back{
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
@@ -265,7 +262,7 @@ h2, h3, h4{
 }
 /*-----------------gallery--------------------------------*/
 #gallery{
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
@@ -276,21 +273,20 @@ h2, h3, h4{
 #gallone{
 	border: 2px solid #000;
 	list-style-type: none;
-	width: 570px;
-	margin: 20px auto;
+	width: 59.375%; /*570px;*/
+	margin: 5% auto;
 	overflow: hidden;
 }
 
 .galle{
 	float: left;
-	padding: 3px 2px;
+	padding: .7%;
 }
 
 .anch{
 	border: 3px solid #000;
 	display: block;
-	width: 174px;
-	height: 98px;
+	width: 97%; /*174px;*/
 }
 
 .anch:hover{
@@ -298,7 +294,7 @@ h2, h3, h4{
 }
 /*--------------signup-------------------------------------*/
 #signup{
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
@@ -307,7 +303,7 @@ h2, h3, h4{
 }
 #add{
 	border: 3px solid #000;
-	margin: 10px auto;
+	margin: 1% auto;
 }
 #add:hover{
 	border: 3px solid #8dc63f;
@@ -315,5 +311,5 @@ h2, h3, h4{
 
 #foot{
 	font-family: 'raleway', san-serif;
-	font-size: 14px;	
+	font-size: .875em; /*14px;*/	
 }
