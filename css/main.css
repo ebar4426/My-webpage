@@ -2,7 +2,8 @@ body{
 	width: 960px;
 	margin: 0px auto;
 	background-image: url("../images/backwork.jpg");
-	background-repeat: no-repeat;
+	background-repeat: x-axis;
+	background-color: #000;
 }
 h2, h3, h4{
 	font-family: 'Parisienne', cursive;
@@ -46,27 +47,91 @@ h2, h3, h4{
 }
 /*--------------------------navigation-end----------------------*/
 /*--------------------first-image-logo------------------------*/
-
-#first {
-	background-color: grey;
-	clear: both;
-	float: left;
-	width: 430px;
-	padding-bottom: 55px;
+#ann{
+	cursor: pointer;
+	text-decoration:none;
+	border: 2px solid rgb(0, 0, 0);
+	padding: 10px 10px 10px 10px;
+	color:rgb(0, 0, 0);
+	font-size:20px;
+	font-family:'Lobster', arial;
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+	font-size: 20px;
+	border-radius:5px 17px 0px 3px;
+	-moz-border-radius:5px 17px 0px 3px;
+	-webkit-border-radius:5px 17px 0px 3px;
+	box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	background-image:linear-gradient(-90deg, rgb(102, 255, 51), rgb(102, 153, 51));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(102, 255, 51)), to(rgb(102, 153, 51)));
+	background-image:-moz-linear-gradient(-90deg, rgb(102, 255, 51), rgb(102, 153, 51));
 }
-
+#ann:hover{
+	cursor: pointer;
+	text-decoration:none;
+	border: 2px solid rgb(0, 0, 0);
+	padding: 10px 10px 10px 10px;
+	color:rgb(0, 0, 0);
+	font-size:20px;
+	font-family:'Lobster', arial;
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+	font-size: 20px;
+	border-radius:5px 17px 0px 3px;
+	-moz-border-radius:5px 17px 0px 3px;
+	-webkit-border-radius:5px 17px 0px 3px;
+	box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	background-image:linear-gradient(-90deg, rgb(0, 153, 0), rgb(102, 153, 51));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(0, 153, 0)), to(rgb(102, 153, 51)));
+	background-image:-moz-linear-gradient(-90deg, rgb(0, 153, 0), rgb(102, 153, 51));
+}
+#ann:active{
+	cursor: pointer;
+	text-decoration:none;
+	border: 2px solid rgb(0, 0, 0);
+	padding: 10px 10px 10px 10px;
+	color:rgb(0, 0, 0);
+	font-size:20px;
+	font-family:'Lobster', arial;
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+	font-size: 20px;
+	border-radius:5px 17px 0px 3px;
+	-moz-border-radius:5px 17px 0px 3px;
+	-webkit-border-radius:5px 17px 0px 3px;
+	box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	background-image:linear-gradient(-90deg, rgb(0, 51, 0), rgb(102, 153, 51));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(0, 51, 0)), to(rgb(102, 153, 51)));
+	background-image:-moz-linear-gradient(-90deg, rgb(0, 51, 0), rgb(102, 153, 51));
+}
 #welcome{
 	font-family: 'Parisienne', cursive;
-	background-color: grey;
+	background-image: url("../images/newcta.jpg");
+	background-repeat: no-repeat;
 	text-align: center;
-	margin: 0;
-	padding-top: 100px;
-	color: green;
-	padding-bottom: 190px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	padding-top: 450px;
+	color: #a4ef3e;
 	float: left;
-	width: 530px;
+	width: 960px;
+	height: 50px;
   	text-shadow: -2px -1px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, 5px 5px 2px #000;
 
+}
+#signtwo{
+	text-align: center;
+	background-color: #000;
+	color: #8dc63f;
+	width: 960px;
+	margin-bottom: 5px;
 }
 /*------------------------------main-characters-----------------------*/
 #michael{
@@ -85,12 +150,15 @@ h2, h3, h4{
 	padding-right:0px;
 	padding-bottom: 10px;
 	margin: 0;
+	border: solid #000 2px;
+	border-radius: 10px;
 
 }
 
 #page_m{
 	font-family: 'raleway', san-serif;
 	font-size: 14px;
+	margin-bottom: 3px;
 }
 
 #trevor{
@@ -111,11 +179,14 @@ h2, h3, h4{
 	padding-right:0px;
 	padding-bottom: 10px;
 	margin: 0;
+	border: solid #000 2px;
+	border-radius: 10px;
 }
 
 #page_t{
 	font-family: 'raleway', san-serif;
 	font-size: 14px;	
+	margin-bottom: 3px;
 }
 
 #franklin{
@@ -135,6 +206,8 @@ h2, h3, h4{
 	padding-right:0px;
 	padding-bottom: 10px;
 	margin: 0;
+	border: solid #000 2px;
+	border-radius: 10px;
 }
 
 #page_f{
@@ -145,20 +218,23 @@ h2, h3, h4{
 #one{
 	font-family: 'raleway', san-serif;
 	font-size: 14px;	
+	margin-bottom: 1px;
 }
 #mikeone{
 	background-color: #555;
-	padding-bottom: 5px;
+	padding-bottom: 1px;
+	border-radius: 10px;
 }
 #trevorone{
 	background-color: #555;
-	padding-bottom: 5px;
+	padding-bottom: 1px;
+	border-radius: 10px;
 }
 #franklinone{
 	background-color: #555;
-	padding-bottom: 5px;
+	padding-bottom: 1px;
+	border-radius: 10px;
 }
-
 /*--------------------------backstory------------------------*/
 #backtwo{
 	-moz-column-count: 4;
@@ -171,24 +247,31 @@ h2, h3, h4{
 }
 
 #main{
+	width: 960px;
 	text-align: center;
 	background-color: #8dc63f;
-	clear: left;
 	text-shadow: 5px 5px 4px #000;
-	border: solid #000 2px
+	border: solid #000 2px;
+	border-radius: 10px;
+	clear: left;
 }
 #back{
+	width: 960px;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
-	border: solid #000 2px
+	border: solid #000 2px;
+	border-radius: 10px;
 }
 /*-----------------gallery--------------------------------*/
 #gallery{
+	width: 960px;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
-	border: solid #000 2px
+	border: solid #000 2px;
+	border-radius: 10px;
+
 }
 #gallone{
 	border: 2px solid #000;
@@ -215,10 +298,12 @@ h2, h3, h4{
 }
 /*--------------signup-------------------------------------*/
 #signup{
+	width: 960px;
 	text-align: center;
 	background-color: #8dc63f;
 	text-shadow: 5px 5px 4px #000;
-	border: solid #000 2px	
+	border: solid #000 2px;
+	border-radius: 10px;
 }
 #add{
 	border: 3px solid #000;
