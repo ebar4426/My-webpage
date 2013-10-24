@@ -244,6 +244,7 @@ h2, h3, h4{
 	text-shadow: 5px 5px 4px #000;
 	border: solid #000 2px;
 	border-radius: 10px;
+	clear: left;
 }
 /*-----------------gallery--------------------------------*/
 #gallery{
@@ -286,6 +287,7 @@ h2, h3, h4{
 #add{
 	border: 3px solid #000;
 	margin: 1% auto;
+	clear: left;
 }
 #add:hover{
 	border: 3px solid #8dc63f;
@@ -294,6 +296,7 @@ table{
 	width: 35.9375%;
 	border-collapse: collapse;
 	margin-top: 2%;
+	float: left;
 }
 .free{
 	background-color: #363636;
@@ -325,6 +328,48 @@ table{
 	padding: 8px;
 	background-color: #363636;
 }
+form{
+	width: 64.0625%;
+	display: block;
+	margin-top: 20px;
+	padding-left: 60%;
+	font-family: 'raleway', san-serif;
+	font-size: 1.25em;
+	color: #8dc63f;
+	
+}
+input{
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	margin-top: 10px;
+	font-size: .9em;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+select{
+	display: block;
+	width: 375px;
+	height: 5px;
+	text-align: center;	
+	font-size: .7em;
+}
+#submit{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	font-family: 'raleway', san-serif;
+	background-color: #8dc63f;
+}
+#submit:hover{
+	color: #fff;
+}
+aside{
+	clear: left;	
+}
+
 /*=============================footer======================*/
 #foot{
 	font-family: 'raleway', san-serif;
@@ -366,6 +411,10 @@ table{
 #backtwo{
 	-moz-column-count: 3;
 }
+form{
+	margin: 0 auto;
+	padding-left: 20%;
+}
 }
 /* mobile landscape to tablet portrat ==============*/
 @media screen and (min-width:480px) and (max-width:767px){
@@ -405,6 +454,13 @@ aside{
 }
 #backtwo{
 	-moz-column-count: 2;
+}
+table{
+	display: none;
+}
+form{
+	margin: 0 auto;
+	padding-left: 10%;
 }
 }
 /* mobile portrat size to mobile landscape=========*/
@@ -458,6 +514,15 @@ aside{
 #franklin{
 	display: none;
 }
+table{
+	display: none;
+}
+form{
+	display: none;
+}
+#signup{
+	display: none;
+}
 }
 /*=================================portrat size for moble==============*/
 @media screen and (max-width:259px){
@@ -507,5 +572,14 @@ aside{
 }
 #backtwo{
 	-moz-column-count: 1;
+}
+table{
+	display: none;
+}
+form{
+	display: none;
+}
+#signup{
+	display: none;
 }
 }
